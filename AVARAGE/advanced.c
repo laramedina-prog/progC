@@ -6,7 +6,7 @@ int main() {
     float soma = 0.0;
     float media;
 
-    printf("\n\nMÉDIA NOTAS\n");
+    printf("\n\nMÉDIA DE X NOTAS\n");
     printf("\n\nQuantas notas você gostaria de calcular a média?\n");
     scanf("%d", &qtd_notas);
 

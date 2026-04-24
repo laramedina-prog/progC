@@ -5,6 +5,8 @@ int main() {
     float nota2;
     float media;
 
+    printf("\n\nMÉDIA DE 2 NOTAS\n\n");
+
     printf("Insira a primeira nota:\n");
     scanf("%f", &nota1);
 
@@ -13,7 +15,7 @@ int main() {
 
     media = (nota1 + nota2) / 2.0;
 
-    printf("A média das duas notas é %.2f\n", media);
+    printf("\nA média das duas notas é %.2f\n\n", media);
 
     return 0;
 
